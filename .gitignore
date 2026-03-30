@@ -1,1 +1,117 @@
-venv
+# =========================
+# DJANGO
+# =========================
+*.log
+*.pot
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# VIRTUAL ENVIRONMENTS
+# =========================
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# DISTRIBUTION / BUILD
+# =========================
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+*.egg
+.installed.cfg
+*.manifest
+*.spec
+
+# =========================
+# INSTALLER LOGS
+# =========================
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =========================
+# TESTS / COVERAGE
+# =========================
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# =========================
+# JUPYTER
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# TYPE CHECK / LINT
+# =========================
+.mypy_cache/
+
+# =========================
+# IDEs
+# =========================
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# PyCharm / IntelliJ
+.idea/
+*.iws
+
+# =========================
+# SISTEMA
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# DJANGO LOCAL CONFIG
+# =========================
+local_settings.py
+_local_settings.py
+
+# =========================
+# STATIC / MEDIA (opcional)
+# =========================
+static/
+
+# =========================
+# OUTROS
+# =========================
+*.bak
+gunicorn-error-log

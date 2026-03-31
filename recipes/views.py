@@ -5,8 +5,11 @@ from django.http import HttpResponse
 
 #HTTP request - cliente pede algo para o servidor
 def home(request):
-    return HttpResponse("Home Page - Projeto Django")
+    return render(request, 'recipes/home.html', {
+        'name': 'Monaliza Vasconcelos'
+    }) #render - servidor responde para o cliente com um template HTML     
     #return HttpResponse - servidor responde para o cliente
+    #recipes/home.html - caminho do template HTML que será renderizado name espace do app recipes
 
 def sobre(request):
     return HttpResponse("Página Sobre")

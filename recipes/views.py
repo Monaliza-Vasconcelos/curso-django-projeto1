@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 # Create your views here.
 
@@ -10,9 +9,3 @@ def home(request):
     }) #render - servidor responde para o cliente com um template HTML     
     #return HttpResponse - servidor responde para o cliente
     #recipes/home.html - caminho do template HTML que será renderizado name espace do app recipes
-
-def sobre(request):
-    return HttpResponse("Página Sobre")
-
-def contato(request):
-    return HttpResponse("Página de Contato")

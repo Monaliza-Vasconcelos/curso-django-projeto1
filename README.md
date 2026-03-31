@@ -65,7 +65,7 @@ Este repositório tem como objetivo:
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/seu-usuario/seu-repo.git
+git clone https://github.com/seu-usuario/seu-repo.git](https://github.com/Monaliza-Vasconcelos/curso-django-projeto1.git
 
 # Entrar na pasta
 cd curso-django-projeto1

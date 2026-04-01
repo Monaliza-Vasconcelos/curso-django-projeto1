@@ -1,12 +1,14 @@
 {% include 'recipes/partials/head.html' %}
 
 <body>
-   {% include 'recipes/partials/header.html' %}
-   {% include 'recipes/partials/search.html' %}
-   <main class="main-content-container main-content-list">
-            
+    {% include 'recipes/partials/header.html' %}
+    {% include 'recipes/partials/search.html' %}
+    <main class="main-content-container main-content-list">
+        <div class="recipe recipe-list-item">
+            {% include 'recipes/partials/recipe.html' %}
         </div>
-   </main>
-   
+    </main>
+
 </body>
+
 </html>

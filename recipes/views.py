@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 #HTTP request - cliente pede algo para o servidor
 def home(request):
-    return render(request, 'recipes/home.html', {
+    return render(request, 'recipes/pages/home.html', {
         'name': 'Monaliza Vasconcelos'
     }) #render - servidor responde para o cliente com um template HTML     
     #return HttpResponse - servidor responde para o cliente
